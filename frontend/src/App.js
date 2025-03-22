@@ -19,7 +19,9 @@ function App() {
         </header>
         {/* <Navbar /> */}
         <Routes>
-          <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/" element={<Dashboard />} />
+
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/residents" element={<Residents />} />
           <Route path="/add-resident" element={<AddResident />} />
           <Route path="/residents/:id" element={<ResidentDetails />} />
